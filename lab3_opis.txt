@@ -1,0 +1,41 @@
+Opis realizacji zadań z laboratorium nr. 3.
+
+Budowa programu oraz opis działania:
+	Program jest zbudowany z klas oraz jednego interfejsu. Program zawiera proste menu, z 
+którego można wygodnie wybierać opcje dostępne w programie. W razie wpisania niepoprawnego znaku,
+użytkownik zostanie o tym poinformowany. W klasie "Wypozyczalnia" znajduje się metoda "main". 
+Na podstawie interfejsu Sortable, zostały zaimplementowane klasy "SortowanieBabelkowe" oraz
+"SortowanieKubelkowe". W każdej z nich znajdują się metody interfejsu służące sortowaniu tablicy
+oraz zliczaniu ilości porównań. Tablice są generowane automatycznie za każdym razem z innymi
+wartościami po wyborze typu sortowania. Za każdym razem jest także wtedy tworzona nowa instancja 
+klasy. Konstruktory są domyślne z powodu braku potrzeby przekazywania wartości do atrybutów klas
+z zewnątrz. Korzystam jedynie z ich metod służących do modyfikacji tablic oraz zliczania
+ilości porównań. Szczegóły na temat programu znajdują się w odpowiednich miejscach w postaci
+komentarzy w kodzie.
+
+Zaimplementowane funkcjonalności:
+ - implementacja klas na podstawie interfejsu
+ - menu użytkownika
+ - sortowanie bąbelkowe
+ - sortowanie kubełkowe
+ - zliczanie ilości porównań
+
+
+Funkcjonalności do zaimplementowania:
+ - brak (w zakresie polecenia do wykonania)
+
+Interfejs:
+ - Sortable
+
+Klasy:
+ - Sortowanie
+ - SortowanieBabelkowe
+ - SortowanieKubelkowe
+
+Klasy zaimplementowane na podstawie interfejsu "Sortable":
+ - SortowanieBabelkowe
+ - SortowanieKubelkowe
+
+Potwierdzam, że zapoznałem się w interfejsami:
+ - Iterable
+ - Closeable
