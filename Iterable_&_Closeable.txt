@@ -1,0 +1,31 @@
+Iterable - pętla iteracyjna
+	Implementacja tego interfejsu pozwala obiektowi stać się celem instrukcji dla każdego jej powtórzenia.
+
+
+	Przykład(część programu):
+	//-----------------------------------------------------
+		public class Obiekty implements Iterable {
+  	  private List<Obiekt> x = new ArrayList<Obiekt>();    
+    
+  	  public Iterator<Obiekt> iterator() {
+    	    return this.x.iterator();
+   	 }
+	}
+
+	Obiekty x = new Obiekty();
+	Obiekt y = new Obiekt();
+
+	for( Obiekt y : x ){
+		//Instrukcje dotyczące działania na obiekcie
+	}	
+	//-----------------------------------------------------
+
+Closeable - źródło lub miejsce docelowe danych, które mozna zamknąć. Wywoływana jest metoda close w celu
+	zwolnienia zasobów przechowywanych przez obiekt (np. otwarte pliki).
+
+	Przykład(część programu):
+	//-----------------------------------------------------
+	public interface Closeable extends AutoCloseable {
+		public void close() throws IOException;
+	}
+	//-----------------------------------------------------
