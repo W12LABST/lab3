@@ -49,4 +49,5 @@ Potwierdzam, że zapoznałem się w interfejsami:
 	- kubełkowe:
 		Mała ilość porównań. Ten rodzaj sortowania posiada dużą szybkość obliczeniową oraz dużą złożoność pamięciową.
 		Polega ono na stworzeniu "kubełków" w postaci występujących wartości w zbiorze liczb oraz dodawaniu + 1 do nich
-		gdy owe algorytm nim napotka.
+		gdy owe liczby algorytm w tym zbiorze napotka. Algorytm ten ma jednak zastosowanie ograniczone prawie tylko
+		do sortowania wartości ze zbioru liczb całkowitych.
