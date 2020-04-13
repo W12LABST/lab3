@@ -1,6 +1,6 @@
-Iterable - pętla iteracyjna
+Iterable:(edit)
 	Implementacja tego interfejsu pozwala obiektowi stać się celem instrukcji dla każdego jej powtórzenia.
-
+	
 
 	Przykład(część programu):
 	//-----------------------------------------------------
